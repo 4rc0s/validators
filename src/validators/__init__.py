@@ -7,6 +7,7 @@ from .card import amex, card_number, diners, discover, jcb, mastercard, unionpay
 from .country_code import country_code
 from .domain import domain
 from .email import email
+from .eth_address import eth_address
 from .hashes import md5, sha1, sha224, sha256, sha512
 from .hostname import hostname
 from .i18n import es_cif, es_doi, es_nie, es_nif, fi_business_id, fi_ssn
@@ -26,7 +27,7 @@ __all__ = (
     "between",
     # crypto addresses
     "btc_address",
-    # "eth_address",
+    "eth_address",
     # cards
     "amex",
     "card_number",
